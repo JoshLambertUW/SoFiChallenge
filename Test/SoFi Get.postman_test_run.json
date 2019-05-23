@@ -1,0 +1,204 @@
+{
+	"id": "6bb349d1-607e-40ab-a9da-dd5bf88e33c3",
+	"name": "SoFi Get",
+	"allTests": [],
+	"timestamp": "2019-05-23T21:20:43.199Z",
+	"collection_id": "593203e5-3bb8-4bbc-aef9-27c6b6fc078b",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "593203e5-3bb8-4bbc-aef9-27c6b6fc078b",
+		"name": "SoFi Get",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"765f8637-45dc-46d8-8582-f53b94d48b8d",
+			"9672f2f4-1c8b-4ed0-903e-1a25f0fde3a2",
+			"371cc406-6070-415e-8c77-ff3284cbce81",
+			"f41a219c-5828-4a8d-a904-21b3bc248635"
+		],
+		"folders_order": [],
+		"owner": "0",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "GET Request 1",
+			"id": "765f8637-45dc-46d8-8582-f53b94d48b8d",
+			"url": "http://localhost:3000/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"14"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "14",
+			"totalRequestTime": "14",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Request 2",
+			"id": "9672f2f4-1c8b-4ed0-903e-1a25f0fde3a2",
+			"url": "http://localhost:3000/2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Requests 3",
+			"id": "371cc406-6070-415e-8c77-ff3284cbce81",
+			"url": "http://localhost:3000/3",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"3"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "3",
+			"totalRequestTime": "3",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Requests 3 Bad",
+			"id": "f41a219c-5828-4a8d-a904-21b3bc248635",
+			"url": "http://localhost:3000/1000000",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"2"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "2",
+			"totalRequestTime": "2",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 21,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GET Request 1",
+			"id": "765f8637-45dc-46d8-8582-f53b94d48b8d",
+			"url": "http://localhost:3000/1",
+			"time": "2019-05-23T21:20:43.199Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "GET Request 2",
+			"id": "9672f2f4-1c8b-4ed0-903e-1a25f0fde3a2",
+			"url": "http://localhost:3000/2",
+			"time": "2019-05-23T21:20:43.199Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "GET Requests 3",
+			"id": "371cc406-6070-415e-8c77-ff3284cbce81",
+			"url": "http://localhost:3000/3",
+			"time": "2019-05-23T21:20:43.199Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "GET Requests 3 Bad",
+			"id": "f41a219c-5828-4a8d-a904-21b3bc248635",
+			"url": "http://localhost:3000/1000000",
+			"time": "2019-05-23T21:20:43.199Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}

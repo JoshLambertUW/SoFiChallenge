@@ -1,0 +1,197 @@
+{
+	"id": "ad585028-1fb3-4ed9-98ff-1e35c4e702a0",
+	"name": "SoFi",
+	"allTests": [],
+	"timestamp": "2019-05-23T21:20:19.350Z",
+	"collection_id": "b64198fe-0dee-45b3-a427-3c3ccb82e196",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 49,
+	"collection": {
+		"id": "b64198fe-0dee-45b3-a427-3c3ccb82e196",
+		"name": "SoFi",
+		"description": null,
+		"auth": null,
+		"events": [
+			{
+				"listen": "prerequest",
+				"script": {
+					"id": "93f797ca-4de8-4a14-9884-37a3b7df530b",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			},
+			{
+				"listen": "test",
+				"script": {
+					"id": "a8ce7df7-0fc4-4d5c-bd30-0b8384304173",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			}
+		],
+		"variables": [],
+		"order": [
+			"f9327d4d-8478-4a96-b5ea-9fc42c342e84"
+		],
+		"folders_order": [],
+		"owner": "0",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "POST Requests",
+			"id": "f9327d4d-8478-4a96-b5ea-9fc42c342e84",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"6",
+				"5",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"4",
+				"3",
+				"3",
+				"4",
+				"3",
+				"3",
+				"3",
+				"4",
+				"3",
+				"3",
+				"3",
+				"3",
+				"4",
+				"3",
+				"3",
+				"3",
+				"4",
+				"3",
+				"4",
+				"4",
+				"3",
+				"3",
+				"4",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"2",
+				"3",
+				"2",
+				"3",
+				"3",
+				"4",
+				"3",
+				"3"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "3",
+			"totalRequestTime": 159,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 159,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "POST Requests",
+			"id": "f9327d4d-8478-4a96-b5ea-9fc42c342e84",
+			"url": "http://localhost:3000/",
+			"time": "3",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}

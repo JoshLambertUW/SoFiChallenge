@@ -1,0 +1,394 @@
+[
+  {
+    "user-id": 1,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 5.78,
+    "purchase-date": "2019-01-01T22:17:38",
+    "tx-id": 1
+  },
+  {
+    "user-id": 2,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 21.34,
+    "purchase-date": "2019-01-01T22:17:39",
+    "tx-id": 2
+  },
+  {
+    "user-id": 5,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 2.67,
+    "purchase-date": "2019-01-01T22:17:40",
+    "tx-id": 3
+  },
+  {
+    "user-id": 3,
+    "merchant": "McDonalds",
+    "merchant-id": 3,
+    "price": 9.87,
+    "purchase-date": "2019-01-01T22:17:41",
+    "tx-id": 4
+  },
+  {
+    "user-id": 2,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 4.23,
+    "purchase-date": "2019-01-01T22:17:42",
+    "tx-id": 5
+  },
+  {
+    "user-id": 1,
+    "merchant": "Flying Pie Pizza",
+    "merchant-id": 4,
+    "price": 67.48,
+    "purchase-date": "2019-01-01T22:17:43",
+    "tx-id": 6
+  },
+  {
+    "user-id": 1,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 5.78,
+    "purchase-date": "2019-01-01T22:17:44",
+    "tx-id": 7
+  },
+  {
+    "user-id": 6,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 12.54,
+    "purchase-date": "2019-01-01T22:17:45",
+    "tx-id": 8
+  },
+  {
+    "user-id": 8,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 45.78,
+    "purchase-date": "2019-01-01T22:17:46",
+    "tx-id": 9
+  },
+  {
+    "user-id": 1,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 12.65,
+    "purchase-date": "2019-01-01T22:17:47",
+    "tx-id": 10
+  },
+  {
+    "user-id": 1,
+    "merchant": "Flying Pie Pizza",
+    "merchant-id": 4,
+    "price": 18.79,
+    "purchase-date": "2019-01-01T22:17:48",
+    "tx-id": 11
+  },
+  {
+    "user-id": 9,
+    "merchant": "McDonalds",
+    "merchant-id": 3,
+    "price": 19.27,
+    "purchase-date": "2019-01-01T22:17:49",
+    "tx-id": 12
+  },
+  {
+    "user-id": 100,
+    "merchant": "Lola",
+    "merchant-id": 5,
+    "price": 100.76,
+    "purchase-date": "2019-01-01T22:17:50",
+    "tx-id": 13
+  },
+  {
+    "user-id": 101,
+    "merchant": "Lola",
+    "merchant-id": 5,
+    "price": 78.45,
+    "purchase-date": "2019-01-01T22:17:51",
+    "tx-id": 14
+  },
+  {
+    "user-id": 5,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 12.75,
+    "purchase-date": "2019-01-01T22:17:52",
+    "tx-id": 15
+  },
+  {
+    "user-id": 7,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 56.12,
+    "purchase-date": "2019-01-01T22:17:53",
+    "tx-id": 16
+  },
+  {
+    "user-id": 6,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 98.23,
+    "purchase-date": "2019-01-01T22:17:54",
+    "tx-id": 17
+  },
+  {
+    "user-id": 3,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 67.23,
+    "purchase-date": "2019-01-01T22:17:55",
+    "tx-id": 18
+  },
+  {
+    "user-id": 1,
+    "merchant": "Acme Inc",
+    "merchant-id": 101,
+    "price": 23.45,
+    "purchase-date": "2019-01-01T22:17:56",
+    "tx-id": 19
+  },
+  {
+    "user-id": 4,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 35.34,
+    "purchase-date": "2019-01-01T22:17:57",
+    "tx-id": 20
+  },
+  {
+    "user-id": 4,
+    "merchant": "Flying Pie Pizza",
+    "merchant-id": 4,
+    "price": 76.23,
+    "purchase-date": "2019-01-01T22:17:58",
+    "tx-id": 21
+  },
+  {
+    "user-id": 2,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 12.47,
+    "purchase-date": "2019-01-01T22:17:59",
+    "tx-id": 22
+  },
+  {
+    "user-id": 1,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 14.65,
+    "purchase-date": "2019-01-01T22:18:00",
+    "tx-id": 23
+  },
+  {
+    "user-id": 1,
+    "merchant": "Albertsons",
+    "merchant-id": 201,
+    "price": 34.12,
+    "purchase-date": "2019-01-01T22:18:01",
+    "tx-id": 24
+  },
+  {
+    "user-id": 10,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 35.21,
+    "purchase-date": "2019-01-01T22:18:02",
+    "tx-id": 25
+  },
+  {
+    "user-id": 76,
+    "merchant": "McDonalds",
+    "merchant-id": 3,
+    "price": 11.92,
+    "purchase-date": "2019-01-01T22:18:03",
+    "tx-id": 26
+  },
+  {
+    "user-id": 65,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 5.73,
+    "purchase-date": "2019-01-01T22:18:04",
+    "tx-id": 27
+  },
+  {
+    "user-id": 9,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 5.98,
+    "purchase-date": "2019-01-01T22:18:05",
+    "tx-id": 28
+  },
+  {
+    "user-id": 9,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 2.21,
+    "purchase-date": "2019-01-01T22:18:06",
+    "tx-id": 29
+  },
+  {
+    "user-id": 9,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 54.89,
+    "purchase-date": "2019-01-01T22:18:07",
+    "tx-id": 30
+  },
+  {
+    "user-id": 9,
+    "merchant": "McDonalds",
+    "merchant-id": 3,
+    "price": 12.98,
+    "purchase-date": "2019-01-01T22:18:08",
+    "tx-id": 31
+  },
+  {
+    "user-id": 10,
+    "merchant": "Flying Pie Pizza",
+    "merchant-id": 4,
+    "price": 45.12,
+    "purchase-date": "2019-01-01T22:18:09",
+    "tx-id": 32
+  },
+  {
+    "user-id": 15,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 5.98,
+    "purchase-date": "2019-01-01T22:18:10",
+    "tx-id": 33
+  },
+  {
+    "user-id": 2,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 3.46,
+    "purchase-date": "2019-01-01T22:18:11",
+    "tx-id": 34
+  },
+  {
+    "user-id": 4,
+    "merchant": "Arbys",
+    "merchant-id": 11,
+    "price": 9.12,
+    "purchase-date": "2019-01-01T22:18:11",
+    "tx-id": 35
+  },
+  {
+    "user-id": 5,
+    "merchant": "Matt's in the Market",
+    "merchant-id": 10,
+    "price": 123.45,
+    "purchase-date": "2019-01-01T22:18:12",
+    "tx-id": 36
+  },
+  {
+    "user-id": 5,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 15.21,
+    "purchase-date": "2019-01-01T22:18:13",
+    "tx-id": 37
+  },
+  {
+    "user-id": 5,
+    "merchant": "Flying Pie Pizza",
+    "merchant-id": 4,
+    "price": 53.12,
+    "purchase-date": "2019-01-01T22:18:14",
+    "tx-id": 38
+  },
+  {
+    "user-id": 1,
+    "merchant": "Albertsons",
+    "merchant-id": 201,
+    "price": 32.98,
+    "purchase-date": "2019-01-01T22:18:15",
+    "tx-id": 39
+  },
+  {
+    "user-id": 6,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 42.12,
+    "purchase-date": "2019-01-01T22:18:16",
+    "tx-id": 40
+  },
+  {
+    "user-id": 7,
+    "merchant": "Matt's in the Market",
+    "merchant-id": 10,
+    "price": 53.87,
+    "purchase-date": "2019-01-01T22:18:17",
+    "tx-id": 41
+  },
+  {
+    "user-id": 9,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 32.14,
+    "purchase-date": "2019-01-01T22:18:18",
+    "tx-id": 42
+  },
+  {
+    "user-id": 4,
+    "merchant": "Lola",
+    "merchant-id": 5,
+    "price": 90.36,
+    "purchase-date": "2019-01-01T22:45:49",
+    "tx-id": 43
+  },
+  {
+    "user-id": 2,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 34.12,
+    "purchase-date": "2019-01-01T22:45:50",
+    "tx-id": 44
+  },
+  {
+    "user-id": 3,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 12.28,
+    "purchase-date": "2019-01-01T22:45:51",
+    "tx-id": 45
+  },
+  {
+    "user-id": 4,
+    "merchant": "Safeway",
+    "merchant-id": 2,
+    "price": 2.09,
+    "purchase-date": "2019-01-01T22:45:52",
+    "tx-id": 46
+  },
+  {
+    "user-id": 5,
+    "merchant": "McDonalds",
+    "merchant-id": 3,
+    "price": 25.78,
+    "purchase-date": "2019-01-01T22:45:53",
+    "tx-id": 47
+  },
+  {
+    "user-id": 9,
+    "merchant": "Lola",
+    "merchant-id": 5,
+    "price": 98.37,
+    "purchase-date": "2019-01-01T22:45:54",
+    "tx-id": 48
+  },
+  {
+    "user-id": 1,
+    "merchant": "Bartell Drugs",
+    "merchant-id": 1,
+    "price": 5.78,
+    "purchase-date": "2019-01-01T22:45:55",
+    "tx-id": 49
+  }
+]

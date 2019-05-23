@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "593203e5-3bb8-4bbc-aef9-27c6b6fc078b",
+		"name": "SoFi Get",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Request 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"1"
+					]
+				},
+				"description": "Gets the top 3 merchants for customers"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Request 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"2"
+					]
+				},
+				"description": "Gets the top 3 merchants for customers"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Requests 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"3"
+					]
+				},
+				"description": "Gets the top 3 merchants for customers"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Requests 3 Bad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/1000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"1000000"
+					]
+				},
+				"description": "Gets the top 3 merchants for customers"
+			},
+			"response": []
+		}
+	]
+}

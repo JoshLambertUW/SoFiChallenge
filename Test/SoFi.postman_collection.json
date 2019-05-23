@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "b64198fe-0dee-45b3-a427-3c3ccb82e196",
+		"name": "SoFi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST Requests",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"user-id\": \"{{user-id}}\",\r\n    \"merchant\": \"{{merchant}}\",\r\n    \"merchant-id\": \"{{merchant-id}}\",\r\n    \"price\": \"{{price}}\",\r\n    \"purchase-date\": \"{{purchase-date}}\",\r\n    \"tx-id\": \"{{tx-id}}\"\r\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				},
+				"description": "Creates new transaction using supplied test data"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "93f797ca-4de8-4a14-9884-37a3b7df530b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a8ce7df7-0fc4-4d5c-bd30-0b8384304173",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
