@@ -1,10 +1,10 @@
 # SoFiChallenge
 
-To run, first install with:
+First install using:
 
 npm install
 
-Then run in using:
+Then start with:
 
 node app.js
 
